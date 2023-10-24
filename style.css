@@ -1,0 +1,24 @@
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+ }
+ div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-top: 20px solid black;
+    animation: hussainVali 1s linear 0s infinite normal;
+    
+ }
+  @keyframes hussainVali{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+  }
